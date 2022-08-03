@@ -6,4 +6,6 @@ public interface AulaService {
 
 	void guardarAula(Aula aula);
 	
+	void asignarEstudianteAula();
+	
 }

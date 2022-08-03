@@ -1,11 +1,10 @@
-package com.idat.idataula.entity;
+package com.idat.idataula.dto;
 
-public class Estudiante {
+public class Alumno {
 
 	private Integer idAlumno;
 	private String apellido;
 	private String nombre;
-	
 	public Integer getIdAlumno() {
 		return idAlumno;
 	}
@@ -25,7 +24,5 @@ public class Estudiante {
 		this.nombre = nombre;
 	}
 	
-	
-
 	
 }
